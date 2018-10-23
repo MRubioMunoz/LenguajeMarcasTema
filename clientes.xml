@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes[
+ <!ELEMENT clientes (cliente*) >
+ <!ELEMENT cliente (empresa | particular, direccion, telefono+, email+ ) >
+ <!ELEMENT empresa (denominacion,cif) >
+ <!ELEMENT denominacion (#PCDATA)>
+ <!ELEMENT cif (#PCDATA)>
+ <!ELEMENT particular (nombre,apellidos)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT apellidos (#PCDATA)>
+ <!ELEMENT direccion (tipo_via, via, cp, ciudad)>
+ <!ELEMENT tipo_via (#PCDATA)>
+ <!ELEMENT via (#PCDATA)>
+ <!ELEMENT cp (#PCDATA)>
+ <!ELEMENT ciudad (#PCDATA)>
+ <!ELEMENT telefono (#PCDATA)>
+ <!ELEMENT email (#PCDATA)> 
+]>
+
+<clientes>
+    <cliente>
+    <empresa>
+        <denominacion></denominacion>
+         <cif></cif>
+    </empresa>
+        <direccion>
+        <tipo_via></tipo_via>
+        <via></via>
+        <cp></cp>
+        <ciudad></ciudad>
+</direccion>
+<telefono></telefono>
+<telefono></telefono>
+<email></email>
+<email></email>
+<email></email>
+</cliente>
+
+ <cliente>
+    <empresa>
+        <denominacion></denominacion>
+         <cif></cif>
+    </empresa>
+        <direccion>
+        <tipo_via></tipo_via>
+        <via></via>
+        <cp></cp>
+        <ciudad></ciudad>
+</direccion>
+<telefono></telefono>
+<telefono></telefono>
+<email></email>
+<email></email>
+<email></email>
+</cliente>
+
+
+</clientes>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musica[
+<!ELEMENT musica (cd+)>
+<!ELEMENT cd (titulo,artista,discografica,anio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT discografica (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+
+]>
+<musica>
+    <cd>
+        <titulo>A</titulo>
+        <artista>Yo </artista>
+        <discografica>una </discografica>
+        <anio> 2018</anio>
+    </cd>
+    <cd>
+
+        <titulo>   b     </titulo>
+        <artista>v   </artista>
+        <discografica> sa</discografica>
+        <anio>1999 </anio>
+    </cd>
+    <cd>
+
+        <titulo> af </titulo>
+        <artista>  afg </artista>
+        <discografica>asdf </discografica>
+        <anio>2019 </anio>
+    </cd>
+
+
+
+</musica>

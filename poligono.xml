@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poligonos[
+<!ELEMENT poligonos (poligono+)>
+<!ELEMENT poligono (vertice,vertice,vertice+)>
+<!ELEMENT vertice EMPTY>
+<!ATTLIST vertice x CDATA #REQUIRED>
+<!ATTLIST vertice y CDATA #REQUIRED> 
+]>
+<!--IMPLIED es para atributos que no son obligatorios
+mientras que REQUIRED es que el atributo es obligatorio-->
+
+<!--Para cargar un .dtd externo se hace con:
+<!DOCTYPE nombre SYSTEM "nombre archivo.xml"> -->
+
+<poligonos>
+    <poligono>
+        <vertice x="2" y="2"/>
+        <vertice x="2" y="4"/>
+        <vertice x="4" y="2"/>
+    </poligono>
+
+    <poligono>
+        <vertice x="2" y="2"/>
+        <vertice x="2" y="4"/>
+        <vertice x="4" y="2"/>
+        <vertice x="4" y="4"/>
+    </poligono>
+
+</poligonos>
